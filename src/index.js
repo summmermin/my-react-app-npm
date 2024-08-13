@@ -2,15 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import TimerFn from './components/TimerFn';
 import reportWebVitals from './reportWebVitals';
-import TimerCl from './components/TimerCl';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 console.log(ReactDOM, 'ReactDOM');
 root.render(
     <React.StrictMode>
-        <TimerCl/>
+        <App/>
     </React.StrictMode>
 );
 
